@@ -1,0 +1,50 @@
+$o: #E89213
+//--------------
+$gray: #333
+$b: #9FD9F6
+$db: #35436B
+$ff: "Noto Sans TC" !important
+
+@mixin classicHover
+  cursor: pointer
+  background-color: rgba(159,217,246,0)
+  border:
+    style: solid
+    width: 1px
+    color: rgba(159,217,246,1)!important
+  &:hover
+    background-color: rgba(159,217,246,.5)
+    border-color:  rgba(159,217,246,0)
+
+%textShadow
+  text-shadow: 0 0 0.55em rgba(0,0,0,.5), 0 0 0.2em rgba(0,0,0,.8)
+
+$w: 8px
+@mixin swiperCustomDot
+  display: flex
+  justify-content: space-between
+  li
+    cursor: pointer
+    width: $w
+    height: $w
+    border-radius: 50%
+    background-color: #d9d9d9
+    &.active
+      cursor: default
+      background: $db
+
+@mixin fullScreen
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  margin: auto
+
+%centerX
+  left: 50%
+  transform: translateX(-50%)
+
+%centerY
+  top: 50%
+  transform: translateY(-50%)
