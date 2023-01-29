@@ -44,7 +44,7 @@ export default {
     return {
       vm: this,
       isMobile,
-      list: ["1111","2222","3333"],
+      list: ["222","3333","1111"],
       swiperOption: {
         loop: true,
         breakpoints: {
@@ -191,7 +191,10 @@ export default {
   // w
   .swiper-container
     width: 100vw
-
+  // alt
+  .alt
+    left: 4vw
+    bottom: 4.5vw
 // --------------------------------
 // PRE NEX
 .pic_box
@@ -255,6 +258,6 @@ export default {
     bottom: 10vw
 @media screen and (max-width: $bp-mb)
   .dot8
-    bottom: 10vw
+    bottom: 6vw
 
 </style>

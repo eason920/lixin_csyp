@@ -168,4 +168,10 @@ export default {
     .is1
       right: auto
       left: 33vw
+
+@media screen and (max-width: $bp-mb)
+  // alt
+  .alt
+    right: 4vw
+    bottom: 4.5vw
 </style>

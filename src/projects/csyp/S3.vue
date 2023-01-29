@@ -210,6 +210,10 @@ export default {
     margin-bottom: 1vw
     h6
       margin-bottom: 1vw
+    h6
+      font-size: 4.5vw
+    p
+      font-size: 4vw
 
 // --------------------------------
 // FLOAT
@@ -332,6 +336,11 @@ export default {
 
   .pic_bg
     bottom: -2vw
+
+  // alt
+  .alt
+    right: 4vw
+    bottom: 4.5vw
 
   // --------------------------------
   .text_box

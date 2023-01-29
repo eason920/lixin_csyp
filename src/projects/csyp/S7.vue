@@ -205,6 +205,10 @@ export default {
     margin-bottom: 1vw
     h6
       margin-bottom: 1vw
+    h6
+      font-size: 4.5vw
+    p
+      font-size: 4vw
 
 // ====================================
 // == SWIPER v
