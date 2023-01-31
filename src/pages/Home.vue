@@ -31,12 +31,12 @@
     <vue-lazy-component class="section" id="section7" @init="init">
       <S7 />
     </vue-lazy-component>
-    <vue-lazy-component class="section" id="section8" @init="init">
+    <!--vue-lazy-component class="section" id="section8" @init="init">
       <S8 />
     </vue-lazy-component>
     <vue-lazy-component class="section" id="section9" @init="init">
       <S9 />
-    </vue-lazy-component>
+    </vue-lazy-componen-->
     <vue-lazy-component class="section" id="contact">
       <ContactSection />
     </vue-lazy-component>
