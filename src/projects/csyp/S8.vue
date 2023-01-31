@@ -2,9 +2,6 @@
   <div class="relative">
     <section id="sec8">
       <div class="pic_box"
-        data-aos-once="false"
-        data-aos="fade-up"
-        data-aos-delay="0"
         data-aos-duration="800"
       >
         <div class="pre" @click="prevBtn"></div>
@@ -151,15 +148,15 @@ export default {
   // overflow: hidden
 .alt
   position: absolute
-  left: 2vw
-  bottom: 1.5vw
+  left: 1.3em
+  bottom: 1.3em
   color: #fff
   font:
     size: 12px
     family: $ff
-  letter-spacing: 3px
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5)
-
+  letter-spacing: 0.06em
+  text-shadow: 0px 2px 15px rgba(0, 0, 0, 0.7), 0px 2px 5px rgba(0, 0, 0, 0.5)
+  
 .swiper-container
   z-index: 2
 
@@ -191,10 +188,6 @@ export default {
   // w
   .swiper-container
     width: 100vw
-  // alt
-  .alt
-    left: 4vw
-    bottom: 4.5vw
 // --------------------------------
 // PRE NEX
 .pic_box
@@ -249,13 +242,12 @@ export default {
   transform: translateX(-50%)
   width: 60px
   & li
-    width: 12px
-    height: 12px
+    box-shadow: 0 0 0.4vw #0006
     &.active
       background-color: #e89213
 @media screen and (min-width: $bp-pc)
   .dot8
-    bottom: 10vw
+    bottom: 2vw
 @media screen and (max-width: $bp-mb)
   .dot8
     bottom: 6vw

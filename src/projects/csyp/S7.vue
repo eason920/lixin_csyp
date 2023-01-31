@@ -141,7 +141,6 @@ export default {
 .text_box
   display: flex
   flex-direction: column
-  text-align: left
   font-family: $ff
   justify-content: center
   align-items: center
@@ -160,8 +159,8 @@ export default {
 .content
   display: flex
   flex-direction: column
-  & > *
-    text-align: center
+  letter-spacing: 0.07em
+  text-align: center
   h6
     color: #666
     font:
@@ -173,7 +172,6 @@ export default {
     font:
       size: 0.8vw
       family: $ff
-    letter-spacing: .1vw
     line-height: 1.7
 
 @media screen and (min-width: $bp-pc)

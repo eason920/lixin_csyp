@@ -41,7 +41,12 @@
           </ul>
         </div>
         <div class="pic_box" v-if="!isMobile">
-          <p class="where">三心六線(截取自桃園市政府捷運工程局)</p>
+          <p class="where"
+            data-aos-once="false"
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-duration="800"
+            >三心六線(截取自桃園市政府捷運工程局)</p>
           <div
             data-aos-once="false"
             data-aos="fade-up"
@@ -79,26 +84,23 @@
 .where
   position: absolute
   z-index: 3
+  top: 1em
+  left: 1.3em
   font:
     family: $ff
     weight: lighter
-    size: 1vw
-  letter-spacing: 1px
+    size: 12px
+  letter-spacing: 0.06em
   color: #fff
   text-shadow: 0px 2px 15px rgba(0, 0, 0, 0.7), 0px 2px 5px rgba(0, 0, 0, 0.5)
 @media screen and (min-width: $bp-pc)
   .pic_box
     position: relative
-  .where
-    top: 1vw
-    left: 1vw
 @media screen and (max-width: $bp-mb)
   #sec6
   .slider_box
     position: relative
     .where
-      top: 4vw
-      left: 4vw
       font:
         size: 3vw
   #slider
@@ -152,7 +154,6 @@
 .text_box
   display: flex
   flex-direction: column
-  text-align: left
   font-family: $ff
   justify-content: center
   img
@@ -167,6 +168,7 @@
 .content
   display: flex
   flex-direction: column
+  letter-spacing: 0.07em
   & > *
     color: #fff
   h6
@@ -178,7 +180,6 @@
     font:
       size: 0.8vw
       family: $ff
-    letter-spacing: .1vw
     line-height: 1.7
 
 @media screen and (min-width: $bp-pc)
@@ -211,10 +212,10 @@
     margin-bottom: 1vw
     h6
       margin-bottom: 1vw
-    h6
       font-size: 4.5vw
     p
       font-size: 4vw
+      letter-spacing: 0.045em
 
 // ====================================
 // == 架構

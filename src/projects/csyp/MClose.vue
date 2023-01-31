@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="lbMasker_bg" v-if="bIsOpen" @click="toggleSidebar"></div>
     <div id="lbMasker" v-if="bIsOpen" @click="toggleSidebar">
       <div class="lbMasker_box">
         <img class="deco3" src="./S1/deco3.png" />
@@ -82,13 +83,24 @@ export default {
 body.fixed
   overflow: hidden
 
+.lbMasker_bg
+  position: fixed
+  top:0
+  left: 0
+  width: 100%
+  height: 100%
+  background: #0006
+  z-index: 98
+  animation: start .5s linear forwards
+  backdrop-filter: blur(2px)
 #lbMasker
+  text-align: center
   position: fixed
   top: 0
   left: 0
   z-index: 99
   animation: start 1s linear forwards
-  background-color: rgba(53,67,107,.95)
+  background-color: rgba(53,67,107,.8)
   .lbMasker_box
     height: 100%
     display: flex
@@ -98,13 +110,15 @@ body.fixed
   ul
     position: relative
     z-index: 1
-  li.back a
-    color: $o
-    border:
-      style: solid
-      width: 0 2px
+  li.back
+    margin-top: 2vw
+    a
       color: $o
-    font-weight: 400
+      border:
+        style: solid
+        width: 0 2px
+        color: $o
+      font-weight: 400
   a
     text-decoration: none
     display: block
@@ -170,7 +184,7 @@ body.fixed
     width: 25vw
     height: 100vh
     li
-      padding: 2.3vh 0
+      padding: 1.3vw 0
 
   .deco3, .deco4
     width: 60%
@@ -181,7 +195,9 @@ body.fixed
     right: 0
     margin: auto
     li
-      padding: 3vh 0
+      padding: 4vw 0
+    li.back
+      margin-top: 6vw
   .deco3, .deco4
     width: 45%
 

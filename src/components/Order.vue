@@ -5,7 +5,6 @@
         <h3 class="title">{{ order.title }}</h3>
         <div class="subtitle">{{ order.subTitle }}</div>
       </div>
-      <div class="order-subtitle" v-html="order.subTitle"></div>
       <div class="order">
         <img class="deco" src="~@/projects/csyp/info/deco.png" />
         <div class="form">
@@ -21,7 +20,7 @@
             <div class="row">
               <label>需求房型</label>
               <el-select v-model="form.room_type" placeholder>
-                <el-option v-for="city in ['24坪（2-3房）', '39坪（3-4房）', '60坪（4-6房）']" :key="city" :label="city" :value="city" no-data-text=""></el-option>
+                <el-option v-for="city in ['50坪以下', '50~60坪', '60~70坪', '70坪以上']" :key="city" :label="city" :value="city" no-data-text=""></el-option>
               </el-select>
             </div>
             <div class="row">
@@ -281,24 +280,27 @@ $orange: #e95513;
   .order-top {
     position: relative;
     overflow: hidden;
+      text-align: center;
     .title {
       color: #35436B;
       font-size: calc(100vw * 42 / 1920);
+      line-height: 1.1;
       font-family: "Noto Sans TC" !important;
       display: inline-block;
       // align-items: center;
       // justify-content: center;
       // height: 40px;
       // line-height: 1;
-      padding: 0 12px;
+      padding: 0 .5em;
       border-style: solid;
       border-width: 0 3px;
-      border-color: #35436B
+      border-color: #35436B;
+      margin: 1em 0;
+
     }
   }
   .order-title {
     font-family: $family2;
-    width: 80vw;
     padding-top: 20px;
     padding-bottom: 8px;
     font-weight: bold;

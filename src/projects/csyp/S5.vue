@@ -151,13 +151,13 @@ export default {
 // ====================================
 .alt
   position: absolute
-  right: 3vw
-  bottom: 2.5vw
+  right: 1.3em
+  bottom: 1.3em
   color: #fff
   font:
     size: 12px
     family: $ff
-  letter-spacing: 3px
+  letter-spacing: 0.06em
   text-shadow: 0px 2px 15px rgba(0, 0, 0, 0.7), 0px 2px 5px rgba(0, 0, 0, 0.5)
 @media screen and (min-width: $bp-pc)
   .pc
@@ -166,12 +166,6 @@ export default {
     img
       width: 100%
     .is1
-      right: auto
-      left: 33vw
+      right: calc(58.4% + 1.3em)
 
-@media screen and (max-width: $bp-mb)
-  // alt
-  .alt
-    right: 4vw
-    bottom: 4.5vw
 </style>

@@ -132,11 +132,11 @@ export default {
 </style>
 
 <style lang="sass">
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC')
+// @import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC')
 @import "src/assets/style/myvar"
 *
-  font-family: "Noto Serif TC", serif !important
-  letter-spacing: 1px
+ // font-family: "Noto Serif TC", serif !important
+ // letter-spacing: 1px
   // Noto Sans CJK TC  粗細Regular 400
   // Noto Serif CJK TC  粗細Regular 400  Bold 700
 .wave

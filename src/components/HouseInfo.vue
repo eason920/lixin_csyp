@@ -59,13 +59,12 @@ export default {
 }
 
 .title {
-  font-size: 36px!important;
-  line-height: 36px;
+  font-size: 36px;
+  line-height:1.1;
   margin: 60px 0;
-  font-weight: 500;
+  font-weight: 700;
   color: #102B60;
   font-family: $family3;
-  width: auto!important;
   display: inline-block;
   padding: 0 15px;
   border-style: solid;
@@ -79,7 +78,7 @@ export default {
 }
 
 .item {
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 30px;
   margin-right: 160px;
   width: 260px;
@@ -104,7 +103,6 @@ export default {
   }
 
   .desc {
-    font-size: 15px;
     text-align: left;
     line-height: 1.4;
     color: #000;
@@ -122,12 +120,13 @@ export default {
   }
 
   .title {
-    font-size: 24px;
+    font-size: 29px;
     margin: 40px 0 24px;
-    width: 100vw;
+    width:auto;
   }
 
   .item {
+    font-size: 14px;
     margin-bottom: 20px;
     margin-right: 0;
     width: 100%;

@@ -73,7 +73,7 @@ export default {
     return {
       vm: this,
       isMobile,
-      list: ["全聯", "億客城生鮮超市", "水之丘公園","7-11"],
+      list: ["全聯", "億客成生鮮超市", "水之丘公園","7-11"],
       swiperOption: {
         loop: true,
         breakpoints: {
@@ -139,7 +139,6 @@ export default {
 .text_box
   display: flex
   flex-direction: column
-  text-align: left
   font-family: $ff
   justify-content: center
   img
@@ -155,6 +154,7 @@ export default {
 .content
   display: flex
   flex-direction: column
+  letter-spacing: 0.07em
   h6
     color: #666
     font:
@@ -166,7 +166,6 @@ export default {
     font:
       size: 0.8vw
       family: $ff
-    letter-spacing: .1vw
     line-height: 1.7
 
 @media screen and (min-width: $bp-pc)
@@ -273,20 +272,20 @@ export default {
   left: -0.7vw
   bottom: -0.3vw
   background:
-    image: url(./S1/bg_pc.png)
+    image: url(./S1/bg.jpg)
     size: 100%
     position: 50% 0
 .alt
   position: absolute
-  left: 2vw
-  bottom: 1.5vw
+  left: 1.3em
+  bottom: 1.3em
   color: #fff
   font:
     size: 12px
     family: $ff
-  letter-spacing: 3px
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5)
-
+  letter-spacing: 0.06em
+  text-shadow: 0px 2px 15px rgba(0, 0, 0, 0.7), 0px 2px 5px rgba(0, 0, 0, 0.5)
+  
 .swiper-container
   z-index: 2
 
@@ -323,11 +322,6 @@ export default {
 
   .pic_bg
     bottom: -2vw
-
-  // alt
-  .alt
-    left: 4vw
-    bottom: 4.5vw
 
 // --------------------------------
 // PRE NEX

@@ -118,7 +118,7 @@ export default {
   position: relative;
   z-index: 3;
   width: 80%;
-  background-image: url("~@/projects/csyp/S1/bg_pc.png");
+  background-image: url("~@/projects/csyp/S1/bg.jpg");
   transform: translateY(0);
   margin: 0 auto 0;
   padding: 6vw 0;
