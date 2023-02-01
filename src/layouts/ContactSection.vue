@@ -6,10 +6,6 @@
 </template>
 <style lang="sass" scoped>
 @import "src/assets/style/myvar"
-#contact
-  background:
-    image: url(~@/projects/csyp/info/bg.png)
-    size: cover
 @media screen and (min-width: $bp-pc)
   #contact
     padding-top: 115px

@@ -264,8 +264,8 @@ $orange: #e95513;
   }
 }
 .order-bg {
-  background-color: $order_bg_color;
-  background-image: $order_bg_image;
+ // background-color: $order_bg_color;
+ // background-image: $order_bg_image;
   background-repeat: no-repeat;
   position: relative;
   background-size: 100vw auto;

@@ -241,23 +241,23 @@ export default {
 .swiper-slide
   background-repeat: no-repeat
   &:nth-child(1), &:nth-child(5)
-    background-image: url('./S2/1.png')
+    background-image: url('./S2/1.jpg')
 
   &:nth-child(2), &:nth-child(6)
-    background-image: url('./S2/2.png')
+    background-image: url('./S2/2.jpg')
 
   &:nth-child(3), &:nth-child(7)
-    background-image: url('./S2/3.png')
+    background-image: url('./S2/3.jpg')
 
   &:nth-child(4)
-    background-image: url('./S2/4.png')
+    background-image: url('./S2/4.jpg')
 
 // ====================================
 // == 架構
 // ====================================
 #sec2
   background:
-    image: url('./S2/bg.png')
+    image: url('./S2/bg.jpg')
     size: cover
   display: flex
 .text_box

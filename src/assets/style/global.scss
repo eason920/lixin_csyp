@@ -40,9 +40,11 @@ body {
 .home {
     // background: $bg;
     padding-top: $nav_pc_height;
-    background-size: cover;
+    background-image: $bg;
+    background-size:100% auto;
     background-position: top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow: hidden; //試底下多的那塊哪來的
 
     &.no-padding-top {
@@ -348,12 +350,13 @@ img[lazy='loaded'] {
 
     .home {
         padding-top: $nav_phone_height;
-        background-color: $order_bg_color;
-        background-image: $order_bg_image_m;
+     //   background-color: $order_bg_color;
+     //   background-image: $order_bg_image_m;
         // background-repeat: no-repeat;
         // background-size: cover;
-        background-attachment: fixed;
+      //  background-attachment: fixed;
         background-position: 0% 50%;
+        background-size: auto 100vh;
 
         &.no-padding-top {
             padding-top: 0;

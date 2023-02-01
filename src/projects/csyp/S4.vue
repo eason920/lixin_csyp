@@ -262,9 +262,6 @@ export default {
 // == 架構
 // ====================================
 #sec4
-  background:
-    image: url('./S3/bg.png')
-    size: cover
   display: flex
 .text_box
 

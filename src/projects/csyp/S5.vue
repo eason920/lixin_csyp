@@ -8,7 +8,7 @@
           data-aos-delay="0"
           data-aos-duration="800"
         >
-          <img src="./S5/pc.png" />
+          <img src="./S5/pc.jpg" />
         </div>
         <div class="alt is1">61快速道路</div>
         <div class="alt">66快速道路</div>
@@ -119,10 +119,10 @@ export default {
       repeat: no-repeat
       position: left bottom
     &:nth-child(1), &:nth-child(3)
-      background-image: url('./S5/mb1.png')
+      background-image: url('./S5/mb1.jpg')
 
     &:nth-child(2), &:nth-child(4)
-      background-image: url('./S5/mb2.png')
+      background-image: url('./S5/mb2.jpg')
 
 // ====================================
 // == 架構

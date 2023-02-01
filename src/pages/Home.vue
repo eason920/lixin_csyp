@@ -64,8 +64,8 @@ import S4 from '@/projects/csyp/S4.vue'
 import S5 from '@/projects/csyp/S5.vue'
 import S6 from '@/projects/csyp/S6.vue'
 import S7 from '@/projects/csyp/S7.vue'
-import S8 from '@/projects/csyp/S8.vue'
-import S9 from '@/projects/csyp/S9.vue'
+/*import S8 from '@/projects/csyp/S8.vue'
+import S9 from '@/projects/csyp/S9.vue' */
 export default {
   name: 'home',
   components: {
@@ -84,8 +84,8 @@ export default {
     S5,
     S6,
     S7,
-    S8,
-    S9,
+/*  S8,
+    S9, */
   },
 
   data() {

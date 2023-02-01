@@ -257,21 +257,18 @@ export default {
     repeat: no-repeat
     position: left bottom
   &:nth-child(1), &:nth-child(4)
-    background-image: url('./S3/1.png')
+    background-image: url('./S3/1.jpg')
 
   &:nth-child(2), &:nth-child(5)
-    background-image: url('./S3/2.png')
+    background-image: url('./S3/2.jpg')
 
   &:nth-child(3), &:nth-child(6)
-    background-image: url('./S3/3.png')
+    background-image: url('./S3/3.jpg')
 
 // ====================================
 // == 架構
 // ====================================
 #sec3
-  background:
-    image: url('./S3/bg.png')
-    size: cover
   display: flex
 .text_box
 

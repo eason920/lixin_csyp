@@ -79,8 +79,6 @@
 @import ./sass/share
 #sec6
   // height: 100vh
-  background:
-    color: #0059a9
 .where
   position: absolute
   z-index: 3

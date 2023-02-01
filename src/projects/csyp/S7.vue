@@ -235,7 +235,7 @@ export default {
 // ====================================
 #sec7
   background:
-    image: url('./S2/bg.png')
+    image: url('./S2/bg.jpg')
     size: cover
   display: flex
   flex-direction: column

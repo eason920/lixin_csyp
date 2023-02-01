@@ -115,31 +115,31 @@ export default {
   .swiper-slide
     background-repeat: no-repeat
     &:nth-child(1), &:nth-child(4)
-      background-image: url('./S8/pc1.png')
+      background-image: url('./S8/pc1.jpg')
 
     &:nth-child(2), &:nth-child(5)
-      background-image: url('./S8/pc2.png')
+      background-image: url('./S8/pc1.jpg')
 
     &:nth-child(3), &:nth-child(6)
-      background-image: url('./S8/pc3.png')
+      background-image: url('./S8/pc1.jpg')
 @media screen and (max-width: $bp-mb)
   .swiper-slide
     background-repeat: no-repeat
     &:nth-child(1), &:nth-child(4)
-      background-image: url('./S8/mb1.png')
+      background-image: url('./S8/mb1.jpg')
 
     &:nth-child(2), &:nth-child(5)
-      background-image: url('./S8/mb2.png')
+      background-image: url('./S8/mb1.jpg')
 
     &:nth-child(3), &:nth-child(6)
-      background-image: url('./S8/mb3.png')
+      background-image: url('./S8/mb1.jpg')
 
 // ====================================
 // == 架構
 // ====================================
 #sec8
   background:
-    image: url('./S2/bg.png')
+    image: url('./S2/bg.jpg')
     size: cover
   display: flex
 

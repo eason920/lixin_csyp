@@ -88,7 +88,7 @@
   position: absolute
   transform: rotate(90deg)
   transform-origin: top left
-  z-index: 90
+  z-index: 9
 // --------------------------------
 .logo_box
   position: absolute
@@ -97,7 +97,7 @@
   bottom: 0
   left: 0
   margin: auto
-  z-index: 1
+  z-index: 10
   display: flex
   flex-direction: column
   justify-content: center
@@ -161,6 +161,8 @@
 @media screen and (max-width: $bp-mb)
   #sec1
     height: calc( 100vh - 63px )
+    min-height: calc(100vw * 430 / 375)
+    max-height: calc(100vw * 812 / 375)
   .ani_logo
     width: 70vw
     margin:
