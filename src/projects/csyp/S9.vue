@@ -2,7 +2,11 @@
   <div class="relative">
     <section id="sec9">
       <img class="deco2" src="./S2/deco.png" />
-      <img src="./S9/deco.png" class="float"/>
+      <div class="float">
+        <img src="./S9/deco1.png" alt=""/>
+        <img src="./S9/deco2.png" alt=""/>
+        <img src="./S9/deco3.png" alt=""/>
+      </div>
       <div class="pic_box"
         data-aos-once="false"
         data-aos="fade-up"
@@ -266,9 +270,6 @@ export default {
 
 // --------------------------------
 // FLOAT
-.float
-  position: absolute
-  animation: ani1 8s linear infinite
 
 @keyframes ani1
   0%
@@ -276,19 +277,25 @@ export default {
   100%
     transform: rotate(359deg)
 
+.float
+  position: absolute
+  width: 88vw
+  top: -66vw
+  left: -17vw
+  img
+    width:100%
+    position: absolute
+    &:nth-child(1)
+      animation: ani1 14s linear infinite
+    &:nth-child(2)
+      animation: ani1 10s linear infinite
+    &:nth-child(3)
+      animation: ani1 6s linear infinite
 @media screen and (min-width: $bp-pc)
   .float
-    width: 23vw!important
+    width: 23vw
     top: -14vw
     left: 7vw
-
-@media screen and (max-width: $bp-mb)
-  .float
-    width: 88vw!important
-    top: -66vw
-    left: -17vw
-// --------------------------------
-// FLOAT 2
 .deco2
   position: absolute
   animation: ani2 5s linear infinite

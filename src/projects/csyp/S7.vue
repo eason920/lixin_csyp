@@ -1,7 +1,10 @@
 <template>
   <div class="relative">
     <section id="sec7">
-      <img class="deco1" src="./S7/deco1.png" />
+      <div class="deco1">
+        <div>
+        <img src="./S7/deco1.png" /><img src="./S7/deco1.png" /></div>
+      </div>
       <img class="deco2" src="./S7/deco2.png" />
       <div v-if="isMobile" class="slide_box"
         data-aos-once="false"
@@ -339,17 +342,33 @@ export default {
   position: absolute
   bottom: 0
 .deco1
+  width: 52vw
+  height: 28vw
   left: 0
+  overflow: hidden
+  div
+    white-space: nowrap
+    transform: translate(-50%,30%) rotate(25deg)
+    img
+      transform: translateX(-100%)
+      animation: ani1 8s linear infinite
+      width:89vw
+
+@keyframes ani1
+  to
+    transform: translateX(0%) 
 .deco2
   right: 0
 @media screen and (min-width: $bp-pc)
   .deco1
-    width: 30vw
+    width: 32vw
+    height: 18vw
+    div
+      img
+        width:67vw
   .deco2
     width: 22vw
 @media screen and (max-width: $bp-mb)
-  .deco1
-    width: 50vw
   .deco2
     width: 50vw
     right: -10vw
